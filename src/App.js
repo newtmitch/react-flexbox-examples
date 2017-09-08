@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import styled from "styled-components";
 
 class App extends Component {
   render() {
+    const TopLevel = styled.div`margin: 20px;`;
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <TopLevel>
+        What you're probably looking for is the list of examples. For now, you
+        should instead start the storybook so you can navigate through them
+        per-example. I'll put them in a single page slightly later, but for now,
+        just run <code>yarn run storybook</code> since you have the code sitting
+        there...
+      </TopLevel>
     );
   }
 }
