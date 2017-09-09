@@ -6,6 +6,8 @@ So I did this thing. Here it is. This is primarily my own note repository, but i
 drop me a note, star it, leave a fake issue, even. Just so I know you're there, and my code doesn't get
 lonely.
 
-You can find the examples in a [Storybook](https://storybook.js.org/) build here: https://newtmitch.github.io/react-flexbox-examples/
+Running examples in [Storybook](https://storybook.js.org/): https://newtmitch.github.io/react-flexbox-examples/
+
+Code for the stories: https://github.com/newtmitch/react-flexbox-examples/tree/master/src/stories
 
 Oh, and I bootstrapped these examples with [Create React App](https://github.com/facebookincubator/create-react-app). Because it's awesome.
